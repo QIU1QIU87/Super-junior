@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>經歷</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="portfolio.html">成員</a></li>
+            <li><a href="about.html">經歷</a></li>
+            <li><a href="contact.html">作品</a></li>
+            <li><a href="show.html">其他</a></li>
+        </ul>
+    </nav>
+    <head>
+        <style>
+            /* 樣式設定 */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f5f5f5;
+                color: #333;
+            }
+            body {
+    background-image: url(image/384f8764-3c8f-41cc-8144-14da3836c412.png);
+    background-size: cover; /* 讓圖片覆蓋整個背景 */
+    background-position: center; /* 將圖片置中顯示 */
+    background-position: center 60px; /* 將背景圖片向下移動 100px */
+    background-repeat: no-repeat; /* 防止圖片重複 */
+}
+            h1 {
+                text-align: center;
+            }
+            .container {
+                max-width: 800px;
+                margin: auto;
+                padding: 20px;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .year-select {
+                width: 100%;
+                padding: 10px;
+                margin-bottom: 20px;
+                font-size: 1em;
+            }
+            .history-content {
+                display: none;
+            }
+            /* 主容器樣式 */
+        .container {
+          max-width: 1200px;
+          margin: 20px auto;
+          padding: 20px;
+          text-align: center;
+        }
+            /* 標題樣式 */
+        .title {
+          font-size: 3rem;
+          color: #0d47a1;
+          margin-bottom: 20px;
+          text-shadow: 2px 2px #b0bec5;
+        }
+        </style>
+        <script>
+            // 當年份選項改變時顯示對應內容
+            function showContent() {
+                let selectedYear = document.getElementById("yearSelect").value;
+                let historySections = document.getElementsByClassName("history-content");
+                for (let section of historySections) {
+                    section.style.display = "none"; // 隱藏所有年份內容
+                }
+                if (selectedYear) {
+                    document.getElementById(selectedYear).style.display = "block"; // 顯示選中的年份內容
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="title fade-in">Super Junior</h1>
+            <h2>經歷</h2></div>
+     
+        <div class="container">
+            <label for="yearSelect">選擇年份:</label>
+            <select id="yearSelect" class="year-select" onchange="showContent()">
+                <option value="">選擇年份</option>
+                <option value="2005-2006">2005–2006年</option>
+                <option value="2006-2007">2006–2007年</option>
+                <option value="2007-2008">2007–2008年</option>
+                <option value="2009-2010">2009–2010年</option>
+                <option value="2010-2011">2010–2011年</option>
+                <option value="2011-2012">2011–2012年</option>
+                <option value="2012-2013">2012–2013年</option>
+                <option value="2014-2015">2014–2015年</option>
+                <option value="2015-2016">2015–2016年</option>
+                <option value="2017-2018">2017–2018年</option>
+            </select>
+    
+            <!-- 各年份的內容 -->
+            <div id="2005-2006" class="history-content">
+                <h2>2005–2006年</h2>
+                <p>
+                    - 2005年11月6日，Super Junior 以12人组合的形式在SBS人气歌谣首次登台，演唱出道单曲《Twins (Knock Out)》。<br>
+                    - 2005年12月5日，发布首张专辑《Super Junior05》。<br>
+                    </p>
+            </div>
+            <div id="2006-2007" class="history-content">
+                <h2>2006–2007年</h2>
+                <p>
+                    - 2006年5月27日，圭贤加入，组合名称正式改为“Super Junior”，成为固定的13人组合。<br>
+                    - 2006年6月2日，歌迷名称确定为E.L.F.（Ever Lasting Friends）。<br>
+                    - 2006年6月17日，发行单曲《U》，并在SBS人气歌谣首次获得第一。<br>
+                    - 2006年8月10日，成员希澈发生车祸，受重伤。<br>
+                    
+                    </p>
+            </div>
+            <div id="2007-2008" class="history-content">
+                <h2>2007–2008年</h2>
+                <p>
+                    - 2007年4月19日，利特、神童、银赫和圭贤车祸，圭贤重伤。<br> 
+                    - 2007年7月26日，首部电影《花美男连锁恐怖事件》上映。<br>
+                    - 2007年9月20日，发布第二张专辑《Don't Don》。<br>
+                </p>
+            </div>
+            <div id="2009-2010" class="history-content">
+                <h2>2009–2010年</h2>
+                <p>
+                    - 2009年3月12日，发行第三张专辑《Sorry, Sorry》，获得广泛关注。<br>
+                    - 2009年12月，韩庚与SM娱乐发生合约纠纷并退出组合。<br>
+                    
+                </p>
+            </div>
+            <div id="2010-2011" class="history-content">
+                <h2>2010–2011年</h2>
+                <p>
+                    - 2010年5月13日，发布第四张专辑《Bonamana》。<br>
+                    
+                    </p>
+            </div>
+            <div id="2011-2012" class="history-content">
+                <h2>2011–2012年</h2>
+                <p>
+                    - 2011年8月2日，发行第五张专辑《Mr. Simple》。<br>
+                    
+                    </p>
+            </div>
+            <div id="2012-2013" class="history-content">
+                <h2>2012–2013年</h2>
+                <p>
+                    - 2012年7月4日，发布第六张专辑《Sexy, Free & Single》。<br>
+                    - 2012年10月30日，队长利特入伍。<br>
+                    
+                </p>
+            </div>
+            <div id="2014-2015" class="history-content">
+                <h2>2014–2015年</h2>
+                <p>
+                    - 2013年3月23日，开始《Super Show 5》世界巡演。<br>
+                    - 2014年7月29日，队长利特退伍。<br>
+                    - 2014年8月29日，发行第七张专辑《Mamacita》。<br>
+                    
+                </p>
+            </div>
+            <div id="2015-2016" class="history-content">
+                <h2>2015–2016年</h2>
+                <p>
+                    - 2015年7月16日，发行10周年特别专辑《Devil》。<br>
+                    - 2015年11月6日，SM娱乐设立《Label SJ》独立品牌，专门负责Super Junior相关活动。<br>
+                </p>
+            </div>
+            <div id="2017-2018" class="history-content">
+                <h2>2017–2018年</h2>
+                <p>
+                    - 2017年5月25日，成员圭贤以公益兵身份入伍服役，为组合内最后一位入伍成员<br>
+                    - 2017年11月6日，推出第八张专辑《Play》以纪念出道12周年。<br>
+                </p>
+            </div>
+        </div>
+    </body>
+    </html>
+ <!-- 主內容 -->
+
+   <!-- 底部聯絡資訊 -->
+   <footer class="navbar" id="contact">
+    <p>版權所有 &copy; 2023 Super Junior Official</p>
+  </footer>
+</body>
+</html>

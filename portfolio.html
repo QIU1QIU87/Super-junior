@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>成員</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="portfolio.html">成員</a></li>
+            <li><a href="about.html">經歷</a></li>
+            <li><a href="contact.html">作品</a></li>
+            <li><a href="show.html">其他</a></li>
+        </ul>
+    </nav>
+
+    <style>
+        /* Reset 基本樣式 */
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: 'Arial', sans-serif;
+        }
+    
+        /* 背景和全局樣式 */
+        body {
+          background-color: #f3f4f6;
+          color: #5c4e92;
+        }
+    
+        /* 頂部導航欄 */
+        .navbar {
+          background-color: #0d47a1;
+          padding: 15px 0;
+          text-align: center;
+          color: #fff;
+          font-size: 1.2rem;
+        }
+    
+        .navbar a {
+          color: #fff;
+          text-decoration: none;
+          margin: 0 15px;
+        }
+    
+        .navbar a:hover {
+          text-decoration: underline;
+        }
+    
+        /* 主容器樣式 */
+        .container {
+          max-width: 1200px;
+          margin: 20px auto;
+          padding: 20px;
+          text-align: center;
+        }
+    
+        /* 標題樣式 */
+        .title {
+          font-size: 3rem;
+          color: #0d47a1;
+          margin-bottom: 20px;
+          text-shadow: 2px 2px #b0bec5;
+        }
+    
+        /* 圖片樣式 */
+        .profile-image {
+          width: 100%;
+          max-width: 600px;
+          border-radius: 10px;
+          margin-bottom: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: transform 0.3s ease;
+        }
+    
+        .profile-image:hover {
+          transform: scale(1.05);
+        }
+    
+        /* 內容樣式 */
+        .content {
+          font-size: 1.1rem;
+          color: #555;
+          line-height: 1.6;
+          margin-bottom: 40px;
+        }
+    
+        /* 團員介紹區域 */
+        .members {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+        }
+    
+        .member-card {
+          background-color: #e3f2fd;
+          border-radius: 10px;
+          width: 200px;
+          padding: 20px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+          transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+    
+        .member-card:hover {
+          transform: translateY(-5px);
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+    
+        .member-card h3 {
+          font-size: 1.2rem;
+          color: #0d47a1;
+          margin-bottom: 5px;
+        }
+    
+        .member-card p {
+          color: #555;
+          font-size: 0.9rem;
+        }
+    
+        .member-card img {
+          width: 100%;
+          border-radius: 50%;
+          margin-bottom: 10px;
+        }
+    
+        /* 按鈕樣式 */
+        .btn {
+          background-color: #0d47a1;
+          color: #fff;
+          padding: 10px 20px;
+          text-decoration: none;
+          border-radius: 5px;
+          display: inline-block;
+          margin-top: 20px;
+          transition: background-color 0.3s ease;
+        }
+    
+        .btn:hover {
+          background-color: #1565c0;
+        }
+    
+        /* 動畫效果 */
+        .fade-in {
+          opacity: 0;
+          animation: fadeIn 1s forwards;
+        }
+    
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+    
+      </style>
+    </head>
+    <body>
+      <!-- 主內容 -->
+      <div class="container">
+        <h1 class="title fade-in">Super Junior</h1>
+        <img src="image/D-EN-Super-Junior-The-Last-Man-Standing_Poster-1-Landscape-2-scaled.jpg.webp" alt="Super Junior 圖片" class="profile-image fade-in">
+        <p class="content fade-in" id="intro">
+          Super Junior 是來自韓國的男子音樂團體，於 2005 年出道，由多位成員組成。他們以卓越的舞蹈和音樂表演聞名，曾發行多首經典歌曲，如《Sorry, Sorry》及《Mr. Simple》，在亞洲及全球擁有大量粉絲。
+        </p>
+        
+        <!-- 團員介紹 -->
+        <h2>團員介紹</h2>
+        <pre></pre>
+        <div class="members fade-in" id="members">
+          <div class="member-card">
+            
+            <img src="image/1.jpg" alt="利特">
+            <h3>利特 (Leeteuk)</h3>
+            <p>1983年7月1日</p>
+            <p>隊長、主唱</p>
+          </div>
+          <div class="member-card">
+            <img src="image/2.jpg" alt="希澈">
+            <h3>希澈 (Heechul)</h3>
+            <p>1983年7月10日</p>
+            <p>主唱、舞者</p>
+          </div>
+          <div class="member-card">
+            <img src="image/3.jpg" alt="藝聲">
+            <h3>藝聲 (Yesung)</h3>
+            <p>1984年8月24日</p>
+            <p>主唱</p>
+          </div>
+          <div class="member-card">
+            <img src="image/4.jpg" alt="神童">
+            <h3>神童 (Shindong)</h3>
+            <p>1985年9月28日</p>
+            <p>饒舌、舞者</p>
+          </div>
+          <div class="member-card">
+            <img src="image/5.jpg" alt="銀赫">
+            <h3>銀赫 (Eunhyuk)</h3>
+            <p>1986年4月4日</p>
+            <p>饒舌、主舞</p>
+          </div>
+          <div class="member-card">
+            <img src="image/6.jpg" alt="始源">
+            <h3>始源 (Siwon)</h3>
+            <p>1986年4月7日</p>
+            <p>主唱、舞者</p>
+          </div>
+          <div class="member-card">
+            <img src="image/7.jpg" alt="東海">
+            <h3>東海 (Donghae)</h3>
+            <p>1986年10月15日</p>
+            <p>主唱、舞者</p>
+          </div>
+          <div class="member-card">
+            <img src="image/8.jpg" alt="厲旭">
+            <h3>厲旭 (Ryeowook)</h3>
+            <p>1987年6月21日</p>
+            <p>主唱</p>
+          </div>
+          <div class="member-card">
+            <img src="image/9.jpg" alt="圭賢">
+            <h3>圭賢 (Kyuhyun)</h3>
+            <p>1988年2月3日</p>
+            <p>主唱</p>
+          </div>
+        </div>
+    
+        <!-- 按鈕 -->
+        <a href="#contact" class="btn fade-in">更多資訊</a>
+      </div>
+    
+      <!-- 底部聯絡資訊 -->
+      <footer class="navbar" id="contact">
+        <p>版權所有 &copy; 2023 Super Junior Official</p>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <title>作品</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">首頁</a></li>
+            <li><a href="portfolio.html">成員</a></li>
+            <li><a href="about.html">經歷</a></li>
+            <li><a href="contact.html">作品</a></li>
+            <li><a href="show.html">其他</a></li>
+        </ul>
+    </nav>
+
+    
+  <style>
+    /* Reset 基本樣式 */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+   
+    /* 背景和全局樣式 */
+    body {
+      background-color: #f3f4f6;
+      color: #333;
+    }
+
+    /* 頂部導航欄 */
+    .navbar {
+      background-color: #0d47a1;
+      padding: 15px 0;
+      text-align: center;
+      color: #fff;
+      font-size: 1.2rem;
+    }
+
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+    }
+
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* 主容器樣式 */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* 標題樣式 */
+    .title {
+      font-size: 3rem;
+      color: #0d47a1;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px #b0bec5;
+    }
+
+    /* 作品展示樣式 */
+    .works {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .work-card {
+      width: 200px;
+      background-color: #e3f2fd;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .work-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .work-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .work-card h3 {
+      font-size: 1.2rem;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    .work-card p {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 10px;
+    }
+
+    /* 按鈕樣式 */
+    .btn {
+      background-color: #0d47a1;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1565c0;
+    }
+    .navbar a:hover {
+      text-decoration: underline;
+    }
+
+    /* 主容器樣式 */
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* 標題樣式 */
+    .title {
+      font-size: 3rem;
+      color: #0d47a1;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px #b0bec5;
+    }
+
+    /* 作品展示樣式 */
+    .works {
+      text-align: left;
+      margin-top: 30px;
+    }
+
+    .work-category {
+      margin-bottom: 20px;
+    }
+
+    .work-category h3 {
+      font-size: 1.5rem;
+      color: #0d47a1;
+      margin-bottom: 10px;
+    }
+
+    .work-list {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 主內容 -->
+  <div class="container">
+    <h1 class="title">Super Junior</h1>
+    
+    <!-- 作品介紹 -->
+    <section id="works">
+      <h2>歌曲推薦</h2>
+      <div class="works">
+        <div class="work-card">
+          <img src="image/ＳＯＲＲＹ.jpeg" alt="Sorry, Sorry 專輯封面">
+          <h3>Sorry, Sorry</h3>
+          <p>發行日期: 2009</p>
+          <a href="https://youtu.be/x6QA3m58DQw?si=It5qvLJgNpIP2J77" target="_blank" class="btn">觀看 MV</a>
+        </div>
+        <div class="work-card">
+          <img src="image/mr_simple.jpeg" alt="Mr. Simple 專輯封面">
+          <h3>Mr. Simple</h3>
+          <p>發行日期: 2011</p>
+          <a href="https://youtu.be/r6TwzSGYycM?si=FSQS8nh8UpKj8Wff" target="_blank" class="btn">觀看 MV</a>
+        </div>
+        <div class="work-card">
+          <img src="image/Black Suit.jpeg" alt="Black Suit 專輯封面">
+          <h3>Black Suit</h3>
+          <p>發行日期: 2017</p>
+          <a href="https://youtu.be/MvqB6JsRbsc?si=PZ5NaNdIH7LBquZR" target="_blank" class="btn">觀看 MV</a>
+        </div>
+        <div class="work-card">
+          <img src="image/house.jpg" alt="House Party 專輯封面">
+          <h3>House Party</h3>
+          <p>發行日期: 2021</p>
+          <a href="https://youtu.be/BtJMOVKjhUo?si=ypInfV1lWVeRNEAl" target="_blank" class="btn">觀看 MV</a>
+        </div>
+      </div>
+      <section id="works">
+        <h2>作品介紹</h2>
+        
+        <div class="works">
+          <!-- 韓語作品 -->
+          <div class="work-category">
+            <h3>韓語作品</h3>
+            <div class="work-list">
+              <strong>正規專輯</strong><br>
+              2005：Super Junior05<br>
+              2007：Don't Don<br>
+              2009：Sorry, Sorry<br>
+              2010：Bonamana / No Other<br>
+              2011：Mr. Simple / A-CHA<br>
+              2012：Sexy, Free & Single / SPY<br>
+              2014：Mamacita / This Is Love<br>
+              2017 / 2018：Play / Replay<br>
+              2019 / 2020：Time_Slip / Timeless<br>
+              2021：The Renaissance<br>
+              2022-2023：The Road<br><br>
+              
+              <strong>特別專輯</strong><br>
+              2015：Devil / Magic<br><br>
+              
+              <strong>特別迷你專輯</strong><br>
+              2018：One More Time<br><br>
+              
+              <strong>特別單曲專輯</strong><br>
+              2022：The Road : Winter for Spring<br><br>
+              
+              <strong>單曲專輯</strong><br>
+              2006：U<br><br>
+              
+              <strong>數位單曲</strong><br>
+              2024：Show Time
+            </div>
+          </div>
+  
+          <!-- 日文作品 -->
+          <div class="work-category">
+            <h3>日文作品</h3>
+            <div class="work-list">
+              <strong>正規專輯</strong><br>
+              2013：Hero<br>
+              2021：Star<br><br>
+              
+              <strong>迷你專輯</strong><br>
+              2020：I Think U<br><br>
+              
+              <strong>單曲專輯</strong><br>
+              2011：Bonamana<br>
+              2011：Mr. Simple<br>
+              2012：Opera<br>
+              2012：Sexy, Free & Single<br>
+              2013：Blue World<br>
+              2014：Mamacita<br>
+              2016：Devil / Magic<br>
+              2017：On and On<br>
+              2018：One More Time<br><br>
+              
+              <strong>紀念單曲</strong><br>
+              2008：U／Twins<br><br>
+              
+              <strong>特別單曲</strong><br>
+              2008：Marry U
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+  </div>
+
+  <!-- 底部聯絡資訊 -->
+
+</body>
+</html>
+    </section>
+
+    <!-- 底部聯絡資訊 -->
+    <footer class="navbar" id="contact">
+        <p>版權所有 &copy; 2023 Super Junior Official</p>
+      </footer>
+</body>
+</html>
